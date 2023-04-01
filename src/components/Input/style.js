@@ -1,0 +1,30 @@
+import styled from 'styled-components';
+
+export const InputContainer = styled.div`
+    width: 100%;
+    height: 75px;
+    background-color: #058c42;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-size: 24px;
+    font-family: 'Roboto';
+    
+    input {
+        width: 100%;
+        height: 75px;
+        background-color: #058c42;
+        border: none;
+        
+        display: flex;
+        align-items: flex-end;
+        
+        font-size: 24px;
+        font-family: 'Roboto';
+        font-weight: 600;
+        color: #fff;
+        padding: 0 10px;
+    }
+`
